@@ -1,11 +1,10 @@
-h1 {
-    background-color: #a37a21;
-    font-size: 24px;
-    color: #333;
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+h1 {
+    font-family: "Macondo", cursive;
 }
