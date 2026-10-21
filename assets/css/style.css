@@ -101,6 +101,8 @@ h2 {
     font-weight: bold;
     color: white;
     display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
     padding: 5px 10px;
@@ -135,6 +137,7 @@ h2 {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
+    -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -150,18 +153,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
- /* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media Queries */
 
